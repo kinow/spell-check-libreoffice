@@ -1,0 +1,47 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>br.eti.kinoshita</groupId>
+  <artifactId>spell-check-libreoffice</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Spell Check with LibreOffice</name>
+  <description>Spell Check with LibreOffice</description>
+  
+  <dependencies>
+    <dependency>
+        <groupId>org.libreoffice</groupId>
+        <artifactId>bootstrapconnector-0.0.1-SNAPSHOT.jar</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/bootstrapconnector-0.0.1-SNAPSHOT.jar</systemPath>
+    </dependency>
+    <dependency>
+        <groupId>org.libreoffice</groupId>
+        <artifactId>juh.jar</artifactId>
+        <version>0.1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/juh.jar</systemPath>
+    </dependency>
+    <dependency>
+        <groupId>org.libreoffice</groupId>
+        <artifactId>jurt.jar</artifactId>
+        <version>0.1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/jurt.jar</systemPath>
+    </dependency>
+    <dependency>
+        <groupId>org.libreoffice</groupId>
+        <artifactId>ridl.jar</artifactId>
+        <version>0.1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/ridl.jar</systemPath>
+    </dependency>
+    <dependency>
+        <groupId>org.libreoffice</groupId>
+        <artifactId>unoil.jar</artifactId>
+        <version>0.1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/unoil.jar</systemPath>
+    </dependency>
+  </dependencies>
+  
+</project>
